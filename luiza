@@ -1,0 +1,84 @@
+// exercicio 1:
+// aula 12
+// Luiza Orquiz
+*/
+/*
+function funcao(variavel) {
+    return variavel * 6
+}
+funcao; minhaFuncao(6);
+funcao; minhaFuncao(10);
+// so  nao esta executando a funcao 
+
+// 2 a: presente na string fornecida 
+// 2 b: true, true, flase;
+*/
+// B:
+function  idade(nome, idade, cidade, profissao){
+return "Eu sou" + nome + "tenho" + idade + " moro " + cidade + " e sou" + profissao ;
+
+}
+console.log(idade(" luiza ", 18, " Sl " , " estudante "));
+
+// exercicio 2 a: 
+function valores(valor1, valor2){
+return valor1 + valor2 ;
+}
+ console.log(valores(34, 55));
+ //------
+ // b:
+  function maoirOuIgual(a, b){
+ return (a>=b);
+ }
+ //c: 
+ function veruficaPar(a){
+    return(a % 2 === 0);
+ }
+ //d:
+ function tamanhoEMaiuscula(){
+    return a.legth + " " + toUwerCase()
+ }
+ // exercicio 3:
+ function numeros1 (divisao2 , divisao3){
+ return divisao2 / divisao3;
+ }
+ 
+
+
+
+ function numeros2(multiplicaçao5 , multiplicaçao8){
+    return multiplicaçao5 * multiplicaçao8
+ }
+
+ function numeros3(soma10 , soma21){
+    return soma10 + soma21 
+ }
+ function numeros4 (subtraçao45 , subtraçao12){
+    return subtraçao45 -  subtraçao12
+ }
+let r1 = Number(prompt("digite o numero 1"));
+let r2 = Number(prompt("digite o numero 2"));
+
+ console.log(numeros1(r1 ,r2), numeros2(r1 , r2), numeros3(r1 , r2), numeros4(r1 ,r2));
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
